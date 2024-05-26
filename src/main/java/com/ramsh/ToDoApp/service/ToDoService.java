@@ -1,7 +1,7 @@
 package com.ramsh.ToDoApp.service;
 
 import com.ramsh.ToDoApp.model.ToDo;
-import com.ramsh.ToDoApp.repo.IToDoRepo;
+import com.ramsh.ToDoApp.repo.ToDoDao;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,7 +13,7 @@ import org.springframework.stereotype.Service;
 public class ToDoService {
 	
 	@Autowired
-    private IToDoRepo repo;
+    private ToDoDao repo;
 
     public List<ToDo> getAllToDoItems() {
         return repo.getAllToDoItems();

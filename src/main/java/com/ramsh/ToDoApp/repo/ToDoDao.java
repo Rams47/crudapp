@@ -7,7 +7,7 @@ import java.util.List;
 import com.ramsh.ToDoApp.model.ToDo;
 
 
-public interface IToDoRepo {
+public interface ToDoDao {
 	List<ToDo> getAllToDoItems();
     ToDo getToDoItemById(Long id);
     boolean saveOrUpdateToDoItem(ToDo todo);
