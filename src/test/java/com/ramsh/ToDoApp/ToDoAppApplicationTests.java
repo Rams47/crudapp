@@ -1,10 +1,10 @@
-package com.example.crudapp;
+package com.ramsh.ToDoApp;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class CrudappApplicationTests {
+class ToDoAppApplicationTests {
 
 	@Test
 	void contextLoads() {
